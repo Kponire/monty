@@ -1,11 +1,14 @@
-import "monty.h"
+#include "monty.h"
+#include <stdlib.h>
+#include <stdio.h>
 
 void read_file(char *filename, stack_t **stack)
 {
 	char *line;
 	size_t i = 0;
-	int line_count = 1, check, read;
+	int line_count = 1, check;
 	instruct_func s;
+	ssize_t read;
 
 	var_global.file = fopen(filename, "r");
 	if (var_global.file == NULL)

@@ -1,5 +1,6 @@
 #ifndef monty_h
 #define monty_h
+#define  _POSIX_C_SOURCE 200809L
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -83,4 +84,5 @@ void free_dlistint(stack_t *head);
 void dobfree(stack_t **stack);
 void dobfree2(stack_t **stack);
 int _isalpha(int c);
+int isnumber(char *str);
 #endif
