@@ -9,7 +9,7 @@ void _mul(stack_t **stack, unsigned int line_number)
 		fprintf(stderr, "L%d: can't mul, stack too short\n", line_number);
 		free(var_global.buffer);
 		fclose(var_global.file);
-		free_dlistint(*stack);
+		free_stack(*stack);
 		exit(EXIT_FAILURE);
 	}
 	else
