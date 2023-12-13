@@ -1,4 +1,5 @@
 #include "monty.h"
+
 void _mod(stack_t **stack, unsigned int line_number)
 {
 	int mod = 0;
