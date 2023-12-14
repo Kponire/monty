@@ -1,5 +1,11 @@
 #include "monty.h"
 
+/**
+ * isnumber - checks if the given string is a number
+ * @str: the input string
+ * Return: 1 if its a number else 0
+ */
+
 int isnumber(char *str)
 {
 	unsigned int i;
