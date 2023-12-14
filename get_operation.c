@@ -15,6 +15,11 @@ instruct_func get_op_func(char *str)
 		{"mul", _mul},
 		{"div", _div},
 		{"mod", _mod},
+		{"nop", _nop},
+		{"pchar", _pchar},
+		{"pstr", _pstr},
+		{"rotl", _rotl},
+		{"rotr", _rotr},
 		{NULL, NULL},
 	};
 
