@@ -27,6 +27,12 @@ int isnumber(char *str)
 	return (1);
 }
 
+/**
+ * _isalpha - checks if the integer is an alphabet
+ * @c: the given integer
+ * Return: 1 if alpha else 0
+ */
+
 int _isalpha(int c)
 {
 	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
