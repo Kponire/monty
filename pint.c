@@ -1,5 +1,11 @@
 #include "monty.h"
 
+/**
+ * _pint - prints the value at the top of the stack, followed by a new line
+ * @stack: double pointer to the struct stack
+ * @line_number: the line counter of the stack
+ */
+
 void _pint(stack_t **stack, unsigned int line_number)
 {
 	stack_t *runner;

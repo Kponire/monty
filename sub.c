@@ -1,5 +1,12 @@
 #include "monty.h"
 
+/**
+ * _sub -  subtracts the top element of the stack
+ * from the second top element of the stack.
+ * @stack: double pointer to the struct stack
+ * @line_number: the line counter of the stack
+ */
+
 void _sub(stack_t **stack, unsigned int line_number)
 {
 	stack_t *tmp = *stack;

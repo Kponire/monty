@@ -1,5 +1,11 @@
 #include "monty.h"
 
+/**
+ * _swap - swaps the top two elements of the stack.
+ * @stack: double pointer to the struct stack
+ * @line_number: the line counter of the stack
+ */
+
 void _swap(stack_t **stack, unsigned int line_number)
 {
 	stack_t *runner;

@@ -1,5 +1,11 @@
 #include "monty.h"
 
+/**
+ * _rotl - rotates the stack to the top.
+ * @stack: double pointer to the struct stack
+ * @line_number: the line counter of the stack
+ */
+
 void _rotl(stack_t **stack, unsigned int line_number)
 {
 	stack_t *runner = *stack;

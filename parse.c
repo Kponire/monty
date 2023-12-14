@@ -1,5 +1,13 @@
 #include "monty.h"
 
+/**
+ * parse_line - parses a line for an opcode and arguments
+ * @line: the line to be parsed
+ * @stack: double pointer to the struct stack
+ * @line_number: the line counter of the stack
+ * Return: the opcode
+ */
+
 char *parse_line(char *line, stack_t **stack, unsigned int line_number)
 {
 	char *op_code, *push, *arg;

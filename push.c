@@ -1,5 +1,11 @@
 #include "monty.h"
 
+/**
+ * _push - pushes an element to the stack.
+ * @stack: double pointer to the struct stack
+ * @line_number: the line counter of the stack
+ */
+
 void _push(stack_t **stack, __attribute__ ((unused))unsigned int line_number)
 {
 	stack_t *top;

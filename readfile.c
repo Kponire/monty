@@ -2,6 +2,12 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+/**
+ * raed_file - reads the code from the given file
+ * @filename: the given file
+ * @stack: double pointer to the struct stack
+ */
+
 void read_file(char *filename, stack_t **stack)
 {
 	char *line;

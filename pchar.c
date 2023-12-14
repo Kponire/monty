@@ -1,5 +1,11 @@
 #include "monty.h"
 
+/**
+ * _pchar - prints the char at the top of the stack, followed by a new line.
+ * @stack: double pointer to the struct stack
+ * @line_number: the line counter of the stack
+ */
+
 void _pchar(stack_t **stack, unsigned int line_number)
 {
 	int val;
@@ -12,7 +18,6 @@ void _pchar(stack_t **stack, unsigned int line_number)
 		free_stack(*stack);
 		exit(EXIT_FAILURE);
 	}
-
 	val = (*stack)->n;
 	if (val > 127 || val < 0)
 	{
