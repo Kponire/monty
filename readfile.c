@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * raed_file - reads the code from the given file
+ * read_file - reads the code from the given file
  * @filename: the given file
  * @stack: double pointer to the struct stack
  */
