@@ -1,5 +1,11 @@
 #include "monty.h"
 
+/**
+ * _div - divides two stacks
+ * @stack: double pointer to the struct stack
+ * @line_number: the line counter of the stack
+ */
+
 void _div(stack_t **stack, unsigned int line_number)
 {
 	int div = 0;

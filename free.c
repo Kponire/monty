@@ -1,5 +1,10 @@
 #include "monty.h"
 
+/**
+ * free_stack - clears the memory in stack
+ * @stack: double pointer to the struct stack
+ */
+
 void free_stack(stack_t *stack)
 {
 	stack_t *current = stack;

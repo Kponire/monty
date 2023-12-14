@@ -1,5 +1,11 @@
 #include "monty.h"
 
+/**
+ * _mod - calculates the modulus of the stack
+ * @stack: double pointer to the struct stack
+ * @line_number: the line counter of the stack
+ */
+
 void _mod(stack_t **stack, unsigned int line_number)
 {
 	int mod = 0;

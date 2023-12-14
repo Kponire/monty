@@ -1,5 +1,11 @@
 #include "monty.h"
 
+/**
+ * get_op_func - gets the function that will be executed
+ * @str: the function to be executed
+ * Return: the funtion
+ */
+
 instruct_func get_op_func(char *str)
 {
 	int i;
